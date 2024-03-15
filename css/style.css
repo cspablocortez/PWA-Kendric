@@ -1,0 +1,17 @@
+:root {
+    --background-color: #c6def1;
+    --text-color: #343434;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --background-color: #423838;
+        --text-color: #eaeaea;
+    }
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    text-align: center;
+}
